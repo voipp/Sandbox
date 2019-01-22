@@ -6,8 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="NIOServer" />
+        <module name="DataGenerator" />
+        <module name="DataGroupingProcessor" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="NIOServer" target="7" />
+    </bytecodeTargetLevel>
   </component>
 </project>
